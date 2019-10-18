@@ -1,0 +1,41 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: microservicecloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:583165647/microservicecloud-config  #GitHub上面的git仓库名字
+#          ignoreLocalSshSetting: true #为了激活基于属性的SSH配置
+#          hostKey: someKey
+#          hostKeyAlgorithm: ssh-rsa
+#          strictHostKeyChecking: true
+#          privateKey: -----BEGIN OPENSSH PRIVATE KEY-----
+#            b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABFwAAAAdzc2gtcn
+#            NhAAAAAwEAAQAAAQEAlYbR8G0h1w9yT3tBRu2qoSNyi87ms1Tx3D9tj437ErFvUgrB2WXy
+#            H/bdI9vpbAccViZvJ/cN2E3EdwfyyJECJwSiH+E13CPWYFtxRTgGAVnVC/IAkpldkgMPEU
+#            9W96FxNPeA0otDg8bzPYPKvIltXIYy6l5yCQpnXTgrZ5rSuMhJw8uMp1SxDmpftcWhjXMy
+#            FJm/FXIv7gf8oaBr6TA48+Jy4fNvk1TGmF+zKIuPxgPNCQrCUTlFl+Z20wGNtd4kV8/x97
+#            JOGl1yaYmEvBkgtin/5iQrQqjaDdy74QQGvs/gvNn16V+hIf/CgoENuI0Hs+/dah84Z7d+
+#            +5SJ8QwDDQAAA9AGZbH8BmWx/AAAAAdzc2gtcnNhAAABAQCVhtHwbSHXD3JPe0FG7aqhI3
+#            KLzuazVPHcP22PjfsSsW9SCsHZZfIf9t0j2+lsBxxWJm8n9w3YTcR3B/LIkQInBKIf4TXc
+#            I9ZgW3FFOAYBWdUL8gCSmV2SAw8RT1b3oXE094DSi0ODxvM9g8q8iW1chjLqXnIJCmddOC
+#            tnmtK4yEnDy4ynVLEOal+1xaGNczIUmb8Vci/uB/yhoGvpMDjz4nLh82+TVMaYX7Moi4/G
+#            A80JCsJROUWX5nbTAY213iRXz/H3sk4aXXJpiYS8GSC2Kf/mJCtCqNoN3LvhBAa+z+C82f
+#            XpX6Eh/8KCgQ24jQez791qHzhnt377lInxDAMNAAAAAwEAAQAAAQBitHLVoVTbYKj26sg2
+#            iCFA6eNtgxErhIF8AKrUPsdkmZiAsfUxC2j/zLhCOaMm2rLL8+cgnKeZCA0O/kI4P/EJzL
+#            cxEDu7rDSRuwtUxBzCu4g1sHTMUU1BW5+Qr60bHolai5+QXLoevTBIhT1Jo/Z7Q2NM7zeb
+#            3DBLiw6r/7nmm94roiRykVwauJwiD05H30WgXlUaUch7YlQNtok2URI9p+DKd/df4NdHfT
+#            qlC5CtcyuHu3rxd4cgSlBzgqwhmt0iCihuwOnnItSrhqp//+TJJCqQ1NByZeftIGFbGyDn
+#            nmPM5Mc8IcbOsOJdPWcycqNHJ5Pd0GIlvTxVLYRa5uJBAAAAgGD/EE1FTj5tMAa8Vp7gw0
+#            68HO4r+HXfkrMGp75+8YwnwZGVUEM66eFG/Np/tZZdY1EM/YZZIsbWZnb1Q4kXS+ASj2Cg
+#            tlMnpmBDY4+AE4ufVxolYK4tuIAhphRvaSl1wGD23ppnA1yMCW5BiC98OxQfDJu5vOloVs
+#            hpVbPWy6GbAAAAgQDHWkdeaCYuMl89hMrdg8URPdtA13l7M7RN4pjOVs4QmjVzmKJ4Jax5
+#            k6dCEvEI5yW1TgOKS0Ix9NSmqPXTjo6PpDRutwJXyr8xi9xqZg5rSVR/StyQf36fR3lg6X
+#            aQSuyYlzZxSpS5EmmB5YLcOeoESQboTsBfVOSWSkWgXjv02QAAAIEAwAP+t+fgg/Kn246P
+#            qIDA4K8lF7yHQI/Mpm0R3vFMIS+XHKWKeRqZW8A6pezqAu3yMcAHQx5pxtd0Oj2+hMPMI3
+#            LKx0MkGwvP17YFf1GvLFXzmaSrHcp0AZg37iwPn1yEpE8zCek3UfTdmTtkZYuY0DWZxrG1
+#            E7buBa+CnydDD1UAAAAXbGlib2hhbkBERVNLVE9QLURUQUVHSDYBAgME
+#            -----END OPENSSH PRIVATE KEY-----

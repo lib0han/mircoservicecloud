@@ -1,0 +1,14 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: microservicecloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/583165647/microservicecloud-config  #GitHub上面的git仓库名字
+          username: 583165647
+          password: libohan1008
+          skipSslValidation: true
+          timeout: 4
